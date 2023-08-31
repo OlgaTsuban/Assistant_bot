@@ -15,6 +15,7 @@ The user will have an address book or contact book. This contact book contains e
 
 Regarding fields, we can also say that they can be mandatory (such as name) and optional (such as phone or email). Entries can also contain multiple fields of the same type (multiple phone numbers, for example). The user has the ability to add/remove/edit fields in any entry.</p>
 <h2>main3.py</h2>
+<p></p>
 <h2>main4.py</h2>
 <h1>What this project can do ?</h1>
 <p>This is a console assistant bot that recognizes commands entered from the keyboard and responds accordingly to the entered command.
@@ -27,13 +28,14 @@ The assistant bot serves as a prototype for an assistant application. In its ini
   <li>"phone ...": Using this command, the bot displays the phone number of the specified contact in the console. Instead of ..., the user enters the name of the contact whose number they want to show.</li>
   <li>"show all": With this command, the bot displays all saved contacts with their phone numbers in the console.</li>
   <li>"good bye", "close", "exit": The bot terminates its operation after displaying "Good bye!" in the console, upon receiving any of these commands.</li>
-</ol>
-<p>The output of the script includes:</p>
-<ol>
-  <li>A list of files in each category (music, video, photos, etc.)</li>
-  <li>A list of all recognized script extensions found in the target folder.</li>
-  <li>A list of all extensions that are unknown to the script.</li>
-</ol>
+  
+  <p>From main2.py </p>
+  <li>"delete": With this command, the bot deletes contact's number in memory (e.g., in a dictionary). Instead of ..., the user enters a name and phone number, separated by a space.</li>
+  
+  <p>From main3.py</p>
+  <li>"birth": With this command, the bot stores a new contact in memory (or modify if it already exists). Instead of ..., the user enters a name and birthday, separated by a space.</li>
+  <li>"days": Using this command, the bot displays the amount of days till birthday of the specified contact in the console. Instead of ..., the user enters the name of the contact .</li>
+  <li>"iteration": Using this command, the bot displays the amount of phone number of the phone book in the console. Instead of ..., the user enters the number, how many contacts the user wants to see .</li>
 <h1>How to use?</h1>
 <p>You can write this for MacOS <b>python3 main.py the/way/to/the/dir</b> </p>
 <p>You can write this for Windows <b>python main.py C:the\way\to\the\dir</b> </p>
