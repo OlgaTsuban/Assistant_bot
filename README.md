@@ -22,12 +22,17 @@ Regarding fields, we can also say that they can be mandatory (such as name) and 
   <li>Implement pagination (page-by-page output) for the AddressBook in cases where the book is very large and needs to be displayed in parts rather than all at once. Achieve this by creating an iterator for the entries.</li>
 </ol>
 <h2>main4.py</h2>
+<p>Here are the next upgrades:</p>
+<ol>
+  <li>Add functionality to save the address book to disk and restore from disk.That allow you to save all data to a file and load them from a file.</li>
+  <li>Provide the user with the ability to search through the content of the address book so that they can find all the information about one or several users based on digits of phone numbers, letters of names, etc.</li>
+</ol>
 <h1>What this project can do ?</h1>
 <p>This is a console assistant bot that recognizes commands entered from the keyboard and responds accordingly to the entered command.
 The assistant bot serves as a prototype for an assistant application. In its initial form, the assistant application is able to work with a contact book and a calendar.</p>
 <p>The bot accepts the following commands:</p>
 <ol>
-  <li>"hello": Responds in the console with "How can I help you?"</li>
+  <li>"hello ...": Responds in the console with "How can I help you?"</li>
   <li>"add ...": With this command, the bot stores a new contact in memory (e.g., in a dictionary). Instead of ..., the user enters a name and phone number, separated by a space.</li>
   <li>"change ...": This command allows the bot to update the phone number of an existing contact. Instead of ..., the user enters a name and the new phone number, separated by a space.</li>
   <li>"phone ...": Using this command, the bot displays the phone number of the specified contact in the console. Instead of ..., the user enters the name of the contact whose number they want to show.</li>
@@ -35,12 +40,16 @@ The assistant bot serves as a prototype for an assistant application. In its ini
   <li>"good bye", "close", "exit": The bot terminates its operation after displaying "Good bye!" in the console, upon receiving any of these commands.</li>
   
   <p>From main2.py </p>
-  <li>"delete": With this command, the bot deletes contact's number in memory (e.g., in a dictionary). Instead of ..., the user enters a name and phone number, separated by a space.</li>
+  <li>"delete ...": With this command, the bot deletes contact's number in memory (e.g., in a dictionary). Instead of ..., the user enters a name and phone number, separated by a space.</li>
   
   <p>From main3.py</p>
-  <li>"birth": With this command, the bot stores a new contact in memory (or modify if it already exists). Instead of ..., the user enters a name and birthday, separated by a space.</li>
-  <li>"days": Using this command, the bot displays the amount of days till birthday of the specified contact in the console. Instead of ..., the user enters the name of the contact .</li>
-  <li>"iteration": Using this command, the bot displays the amount of phone number of the phone book in the console. Instead of ..., the user enters the number, how many contacts the user wants to see .</li>
+  <li>"birth ...": With this command, the bot stores a new contact in memory (or modify if it already exists). Instead of ..., the user enters a name and birthday, separated by a space.</li>
+  <li>"days ...": Using this command, the bot displays the amount of days till birthday of the specified contact in the console. Instead of ..., the user enters the name of the contact .</li>
+  <li>"iteration ...": Using this command, the bot displays the amount of phone number of the phone book in the console. Instead of ..., the user enters the number, how many contacts the user wants to see.</li>
+  <p>From main4.py</p>
+  <li>"search ...": Using this command, the bot displays the result of the search. Instead of ..., the user enters the string, what he/she wants to find. </li>
+  <li>"get ...": Using this command, the bot get phone book from the file. Instead of ..., the user enters the name of the file, from what program needs to read the data.</li>
+  <li>"send ...": Using this command, the bot send your phone book to the file. Instead of ..., the user enters the name of the file, to what program needs to write the data.</li>
 <h1>How to use?</h1>
-<p>You can write this for MacOS <b>python3 main.py the/way/to/the/dir</b> </p>
-<p>You can write this for Windows <b>python main.py C:the\way\to\the\dir</b> </p>
+<p>You can write this for MacOS <b>python3 main4.py </b> </p>
+<p>You can write this for Windows <b>python main4.py </b> </p>
