@@ -6,6 +6,14 @@
 <h2>main1.py</h2>
 <p>In the initial stage, our assistant bot is able to store a name and phone number, find a phone number by name, update a recorded phone number, and display all saved records in the console.</p>
 <h2>main2.py</h2>
+<p>Our assistant can already interact with the user using the command line, receiving commands and arguments and performing the required actions. In this program, we work on the internal logic of the assistant, focusing on how data is stored, what specific data is stored, and what can be done with it.
+
+For these purposes, we apply object-oriented programming.
+
+The user will have an address book or contact book. This contact book contains entries. Each entry contains a set of fields.</p>
+<p>The user interacts with the contact book by adding, deleting, and editing entries. The user is also able to search for entries in the contact book using one or multiple criteria (fields).
+
+Regarding fields, we can also say that they can be mandatory (such as name) and optional (such as phone or email). Entries can also contain multiple fields of the same type (multiple phone numbers, for example). The user has the ability to add/remove/edit fields in any entry.</p>
 <h2>main3.py</h2>
 <h2>main4.py</h2>
 <h1>What this project can do ?</h1>
