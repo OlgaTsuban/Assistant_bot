@@ -4,19 +4,21 @@
 <p>File main4.py has better functionality(I recommend you to use it), but others are working too.</p>
 <p>Here is a description for each file.</p>
 <h2>main1.py</h2>
+<p>In the initial stage, our assistant bot is able to store a name and phone number, find a phone number by name, update a recorded phone number, and display all saved records in the console.</p>
 <h2>main2.py</h2>
 <h2>main3.py</h2>
 <h2>main4.py</h2>
 <h1>What this project can do ?</h1>
-<p>Many people have a folder on their desktop named something like "Sort". Typically, this folder remains unsorted indefinitely.I wrote a script that will sort this folder</p>
-<p>This program can sort such extension</p>
+<p>This is a console assistant bot that recognizes commands entered from the keyboard and responds accordingly to the entered command.
+The assistant bot serves as a prototype for an assistant application. In its initial form, the assistant application is able to work with a contact book and a calendar.</p>
+<p>The bot accepts the following commands:</p>
 <ol>
-  <li>Images ('JPEG', 'PNG', 'JPG', 'SVG')</li>
-  <li>Video files ('AVI', 'MP4', 'MOV', 'MKV')</li>
-  <li>Documents ('DOC', 'DOCX', 'TXT', 'PDF', 'XLSX', 'PPTX')</li>
-  <li>Music ('MP3', 'OGG', 'WAV', 'AMR')</li>
-  <li>Archives ('ZIP', 'GZ', 'TAR')</li>
-  <li>Unknown extensions</li>
+  <li>"hello": Responds in the console with "How can I help you?"</li>
+  <li>"add ...": With this command, the bot stores a new contact in memory (e.g., in a dictionary). Instead of ..., the user enters a name and phone number, separated by a space.</li>
+  <li>"change ...": This command allows the bot to update the phone number of an existing contact. Instead of ..., the user enters a name and the new phone number, separated by a space.</li>
+  <li>"phone ...": Using this command, the bot displays the phone number of the specified contact in the console. Instead of ..., the user enters the name of the contact whose number they want to show.</li>
+  <li>"show all": With this command, the bot displays all saved contacts with their phone numbers in the console.</li>
+  <li>"good bye", "close", "exit": The bot terminates its operation after displaying "Good bye!" in the console, upon receiving any of these commands.</li>
 </ol>
 <p>The output of the script includes:</p>
 <ol>
