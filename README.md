@@ -15,7 +15,12 @@ The user will have an address book or contact book. This contact book contains e
 
 Regarding fields, we can also say that they can be mandatory (such as name) and optional (such as phone or email). Entries can also contain multiple fields of the same type (multiple phone numbers, for example). The user has the ability to add/remove/edit fields in any entry.</p>
 <h2>main3.py</h2>
-<p></p>
+<p>Here are the next upgrades:</p>
+<ol>
+  <li>Add functionality for working with the Birthday field in the Record class, specifically the "days_to_birthday" function, which returns the number of days until the next birthday.</li>
+  <li>Add validation functionality to ensure the correctness of provided values for the Phone and Birthday fields.</li>
+  <li>Implement pagination (page-by-page output) for the AddressBook in cases where the book is very large and needs to be displayed in parts rather than all at once. Achieve this by creating an iterator for the entries.</li>
+</ol>
 <h2>main4.py</h2>
 <h1>What this project can do ?</h1>
 <p>This is a console assistant bot that recognizes commands entered from the keyboard and responds accordingly to the entered command.
